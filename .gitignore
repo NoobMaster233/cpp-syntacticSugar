@@ -1,0 +1,10 @@
+*.o
+*.out
+*.exe
+
+.vscode/
+.git/
+
+
+build.log
+build/
