@@ -19,5 +19,13 @@ int main () {
             // ...
         }
     }
+
+    {
+        // C++ 14 的Raw字符串
+        std::string aaa = R"(asd "asdfas"""asdfasdfasdf" )";
+        std::cout << aaa << std::endl; // aaa是asd "asdfas"""asdfasdfasdf"
+        aaa = R"haha(这里面随便写“”""):)haha";
+        std::cout << aaa << std::endl; // aaa是这里面随便写“”""):
+    }
     return 0;
 }
